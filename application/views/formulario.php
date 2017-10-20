@@ -9,6 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/estilos.css">
 
 </head>
+
 <body>
 
 <div id="bg">
@@ -20,10 +21,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <li class="tab" ><img src="https://i.imgur.com/LCCJ06E.png" alt="" class="icon"/></li>
     </ul>
     
-    <form class="form">
-      <input type="text" placeholder="primer nombre" class="textbox" />
-      <input type="text" placeholder="Apellido" class="textbox" />
-      <input type="text" placeholder="Direccion de Email" class="textbox" />
+    </form/ class="form">
+      <input type="text" placeholder="primer nombre" class="textbox" name="nombre1" />
+      <input type="text" placeholder="apellido" class="textbo" nombre1 />
+      <input type="text" placeholder="Direccion de Email" class="textbox"name" email1 />
       <input type="button" value="Next" class="button" />
     </form>
   </div>
